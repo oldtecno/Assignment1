@@ -1,0 +1,439 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    width: 100%;
+}
+
+.header_container{
+    background: rgb(0, 0, 0);
+    height: 100%;
+    padding-bottom: 72px;
+}
+
+
+/* nave bar start */
+.nav_container{
+    display: flex;
+    justify-content: space-around;
+    padding-top:46px;  
+    /* margin-right: 120px; */
+    font-size: 18px;
+
+}
+.without_logo{
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+.nav_container h3{
+    color: orange;
+    font-size: 30px;
+    font-weight: 900;
+
+}
+.button{
+    background-color: orange;
+    color: white;
+    padding:9px;
+}
+/* nave bar compleat */
+
+/* start banner */
+.banner_title_and_img_container{
+    margin-top: 85px;
+    margin-left: 140px;
+    text-align: start;
+
+}
+.head_title{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.banner_title_and_img_container h3{
+     text-transform: uppercase;
+    font-size: 30px;
+}
+.banner_title_and_img_container p{
+    margin-top: 10px;
+    font-size: 17px;
+}
+.texts_img_flex{
+    display: flex;
+    justify-content: space-between;
+}
+.image img{
+    margin-right: 280px;
+    height: 276px;
+    width: 340px;
+    border-radius: 50%;
+    border: 3px solid orange;
+}
+.banner_skills h3{
+    font-size: 19px;
+    margin-top: 20px;
+}
+.banner_buttol{
+    display: flex;
+    gap: 50px;
+    margin-left: 180px;
+    font-size: 20px;
+    padding: 4px 9px;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 19px;
+    width: fit-content;
+    align-items: center;
+    /* justify-content: start; */
+}
+.banner_icons {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    margin-top: 50px;
+    margin-left: 230px;
+}
+
+.roted{
+    margin-top: 0px;
+    display: flex;
+    justify-content: space-between;
+    gap: 140px;
+    padding: 26px;
+    border-top: 2px solid orange;
+    border-bottom: 2px solid orange;
+    background: linear-gradient(rgb(95, 95, 74), rgb(163, 130, 61));
+    align-items: center;
+    transform: skewY(-186deg);
+}
+.roted p{
+    font-size: 20px;
+    padding: 10px 10px;
+}
+.about_me_container{
+    margin-top: 88px;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    font-weight: bolder;
+}
+/* end banner */
+
+
+
+/* start */
+.my_experience_container{
+    height: 100%;
+    background: linear-gradient(255deg,rgb(22, 20, 20),rgb(38, 19, 19), rgb(79, 65, 40));
+    padding: 20px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.yexrs{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.yexrs h3{
+    padding: 0px 20px;
+    font-size: 25px;
+}
+/* end */
+
+
+/* start */
+.award_container{
+    padding: 19px 80px;
+    background:  rgb(66, 58, 58);
+}
+
+.awards{
+    text-align: center;
+    align-items: center;
+}
+.awards h2{
+    font-size: 20px;
+    margin-top: 100px ;
+    padding: 20px;
+}
+.award{
+    background-color:rgb(0, 0, 0); 
+    height: 190px;
+    margin-top: 40px;
+}
+.award p{
+    margin: 25px 55px;
+
+}
+/* end */
+
+
+/* stard */
+
+.projects{
+    height: 100%;
+    background: rgb(66, 58, 58);
+}
+.projects_title{
+    text-align: center;
+    padding-top:150px ;
+}
+.projects_title h2{
+    font-size: 35px;
+    padding-bottom: 16px;
+}
+.buttons{
+    display: flex;
+    padding: 30px;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+}
+.buttons h3{
+    padding: 8px 16px;
+    background-color: black;
+    
+}
+.projects_with_img_container{
+    padding: 30px 78px;
+}
+.img_title{
+    display: flex;
+    /* align-items: center; */
+}
+.img_ img{
+    width: 100%;
+}
+.text_{
+    display: flex;
+    /* justify-content: start; */
+    flex-direction: column;
+    margin-left: 20px;
+    gap: 20px;
+}
+.text_ h2{
+    font-size: 40px;
+}
+/* end */
+
+
+
+/* start */
+.contact{
+    text-align: center;
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.full_input_container{
+    margin: 0px 250px;
+    padding-bottom:  60px;
+    background-color: rgb(41, 40, 40);
+}
+.input_box{
+    margin-top: 30px;
+    padding-top: 90px;
+  
+    height: 100%;
+    /* width: 100%; */
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+    gap: 12px;
+}
+.name{
+    font-size:19px ;
+    margin-left: 20px;
+    width: 50%;
+    margin-bottom: 200px;
+    border-bottom: 1px solid white;
+    display: flex;
+    justify-content: space-between;
+}
+.email{
+    font-size:19px ;
+    width: 50%;
+    margin-bottom: 200px;
+    border-bottom: 1px solid white;
+    display: flex;
+    justify-content: space-between;
+}
+.massage{
+    font-size:19px ;
+    text-align: center;
+    display: flex;
+    margin-left: 20px;
+    border-bottom: 1px solid white;
+}
+.send_container{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+.send_button{
+    padding: 8px 16px;
+    background: orange;
+    border-radius: 16px;
+}
+/* end */
+
+
+/* start */
+.footer_items_container{
+    height: 100%;
+    background: black;
+}
+.up_footer h1{
+    text-align: center;
+    padding: 90px;
+}
+.items{
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+}
+.icons_container{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+.bottom_footer_container{
+    background-color: rgb(36, 28, 12);
+    padding: 25px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+
+}
+.name_{
+    color: orange;
+    font-size: 19px;
+    font-weight: bolder;
+}
+.bottom_footer_container p{
+    font-size: 18px;
+}
+/* end */
+
+
+
+
+
+
+
+
+
+/* for phone */
+
+@media only screen and (min-width:200px) and (max-width:611px){
+    *{
+        font-family: none;
+    }
+    
+    body{
+        width: 100%;
+    }
+    .header_container{
+        justify-content: center;
+    }
+    .without_logo{
+        /* display: none; */
+        gap: 20px;
+    }
+    .button{
+        padding: 3px 3px;
+    }
+    .nav_container h3{
+      display: none;
+    }
+    .banner_title_and_img_container{
+        margin-left: 100px;
+    }
+    .head_title h3{
+        font-size: 25px;
+    }
+    .image img{
+        width: fit-content;
+        height: fit-content;
+    }
+    .texts_img_flex{
+        flex-direction: column;
+        /* align-items: center; */
+    }
+    .banner_buttol{
+        margin: 0px;
+    }
+    .banner_icons{
+        margin-left: 40px;
+    }
+    .roted{
+        display: none;
+    }
+    .about_me_container{
+        flex-direction: column;
+        text-align: center;
+        gap: 45px;
+    }
+    .about_text{
+        font-size: 20px;
+    }
+    .for_call_screen{
+        font-size:27px ;
+    }
+    .my_experience_container{
+        flex-direction: column;
+        text-align: center;
+        gap: 52px;
+
+    }
+    .award_container{
+        padding: 0px 0px;
+    }
+    .award_text{
+        gap: 0px;
+        margin-top: 0px;
+
+    }
+    .award{
+        font-size: inherit;
+        padding: 50% 0%;
+    }
+    .awards h2{
+        margin-top: 0px;
+    }
+    .buttons{
+        font-size: 15px;
+    }
+    .projects_with_img_container{
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    .text_ h2{
+        font-size: 27px;
+    }
+    .full_input_container{
+        margin: 0px 0px;
+    }
+    .up_footer h1{
+        padding-top: 100px;
+    }
+    .items{
+        flex-direction: column;
+        text-align: center;
+        gap: 12px;
+    }
+    .items{
+        gap: 20;
+        font-size: 23px;
+    }
+
+
+
+}   
