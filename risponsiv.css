@@ -1,0 +1,174 @@
+
+@media only screen and (min-width:200px) and (max-width:1200px){
+    .header_container{
+        justify-content: center;
+    }
+    .without_logo{
+        gap: 11px;
+    }
+    .btn_for_phone{
+        margin-right: none;
+        margin-left: none;
+    }
+    .without_logo a {
+        padding: 3px 4px;
+        font-size: 12px;
+        font-weight: normal;
+    }
+    .nav_container{
+        align-items: center;
+        display: flex;
+        /* justify-content: space-around; */
+        /* padding-top:46px;   */
+        /* margin-right: 120px; */
+        /* font-size: 18px; */
+    }
+    .nav_container h3{
+        display: none;
+    }
+    .form_container{
+
+        display: none;
+
+    }
+    .image img{
+        /* display: none; */
+        width: fit-content;
+        height: 10px;
+        margin-right: auto;
+    }
+    .none_for_phone{
+       display:none;
+    
+    }
+    .buttons a{
+        padding: 2px 7px;
+        font-size: 10px;
+        font-weight:normal; 
+    }
+    .projects_with_img_container{
+        padding:1px 0px;
+        padding-left: 2px;
+        padding-right: 2px;
+    }
+    .img_:hover{
+        transition: 0.4s ease-in-out;
+        transform: scale(1.0);
+        position: absolute;
+        /* box-shadow: 1px 1px 9px 2px; */
+        display: flex;
+        right: 0px;
+        /* left: auto; */
+    }
+    .input_container{
+        border-top: 1px solid white;
+        margin: 40px 0px;
+    }
+    .bottom_footer_container p{
+        font-size: 16px;
+    }
+
+
+
+
+/* New end.... */
+
+
+
+
+
+    .banner_title_and_img_container{
+        margin-left: 20px;
+    }
+    .head_title h3{
+        font-size: 25px;
+    }
+    .image img{
+        width: fit-content;
+        height: fit-content;
+    }
+    .texts_img_flex{
+        flex-direction: column;
+        /* align-items: center; */
+    }
+    .banner_buttol{
+        margin: 0px;
+    }
+    .banner_icons{
+        margin-left: 40px;
+    }
+    .roted{
+        display: none;
+    }
+    .about_me_container{
+        flex-direction: column;
+        text-align: center;
+        gap: 45px;
+    }
+    .about_text{
+        font-size: 20px;
+    }
+    .for_call_screen{
+        font-size:27px ;
+    }
+    .my_experience_container{
+        flex-direction: column;
+        text-align: center;
+        gap: 52px;
+
+    }
+    .award_container{
+        padding: 0px 0px;
+    }
+    .award_text{
+        gap: 0px;
+        margin-top: 0px;
+
+    }
+    .award{
+        font-size: inherit;
+        padding: 50% 0%;
+    }
+    .awards h2{
+        margin-top: 0px;
+    }
+    .buttons{
+        font-size: 15px;
+    }
+    .projects_with_img_container{
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    .text_ h2{
+        font-size: 27px;
+    }
+    .full_input_container{
+        margin: 0px 0px;
+    }
+    .form_container button{
+        padding: 8px 10px;
+
+        position: relative;
+        right: 0;
+        left: 0;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+    }
+    .up_footer h1{
+        padding-top: 100px;
+    }
+    .items{
+        flex-direction: column;
+        text-align: center;
+        gap: 12px;
+    }
+    .items{
+        gap: 20;
+        font-size: 23px;
+    }
+
+
+
+}   
+
