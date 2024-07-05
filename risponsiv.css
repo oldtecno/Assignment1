@@ -6,21 +6,21 @@
     .without_logo{
         justify-content: center;
 
-        gap: 1px;
+        gap: 4px;
     }
     /* .btn_for_phone{
         margin-right: 50px;
         margin-left: opx;
     } */
     .without_logo a {
-        padding: 3px 2px;
-        font-size: 10px;
-        font-weight: normal;
-    }
-    .a2{
-        order: -3;
+        padding: 3px 4px;
+        font-size: 16px;
+        font-weight: 600;
     }
     .a1{
+        order: -3;
+    }
+    .a2{
         order: -2;
     }
     #btn{
@@ -47,11 +47,11 @@
     .buttons{
         padding-left: 0px;
         padding-right: 0px;
-        gap: 4px;
+        gap: 5px;
     }
     .buttons a{
         padding: 3px 4px;
-        font-size: 10px;
+        font-size: 15px;
         font-weight:600; 
     }
     .projects_with_img_container{
