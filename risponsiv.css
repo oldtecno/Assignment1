@@ -6,7 +6,7 @@
     .without_logo{
         justify-content: center;
 
-        gap: 4px;
+        gap: 1.5px;
     }
     /* .btn_for_phone{
         margin-right: 50px;
@@ -72,8 +72,11 @@
         border-top: 1px solid white;
         margin: 40px 0px;
     }
+    .bottom_footer_container{
+        gap: 10px;
+    }
     .bottom_footer_container p{
-        font-size: 16px;
+        font-size: 11px;
     }
     .a_button{
         margin-top: 10px;
