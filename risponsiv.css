@@ -1,35 +1,36 @@
 
-@media only screen and (min-width:200px) and (max-width:1200px){
+@media only screen and (min-width:200px) and (max-width:900px){
     .header_container{
         justify-content: center;
     }
     .without_logo{
-        gap: 11px;
+        gap: 9px;
     }
     .btn_for_phone{
-        margin-right: none;
-        margin-left: none;
+        margin-right: 50px;
+        margin-left: 1px;
     }
     .without_logo a {
         padding: 3px 4px;
-        font-size: 12px;
+        font-size: 16px;
         font-weight: normal;
+    }
+    .a2{
+        order: -3;
+    }
+    .a1{
+        order: -2;
+    }
+    #btn{
+        order: -1;
+        margin-right: 0px;
     }
     .nav_container{
         align-items: center;
         display: flex;
-        /* justify-content: space-around; */
-        /* padding-top:46px;   */
-        /* margin-right: 120px; */
-        /* font-size: 18px; */
     }
     .nav_container h3{
         display: none;
-    }
-    .form_container{
-
-        display: none;
-
     }
     .image img{
         /* display: none; */
@@ -41,10 +42,14 @@
        display:none;
     
     }
+    .buttons{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
     .buttons a{
-        padding: 2px 7px;
-        font-size: 10px;
-        font-weight:normal; 
+        padding: 3px 7px;
+        font-size: 16px;
+        font-weight:600; 
     }
     .projects_with_img_container{
         padding:1px 0px;
@@ -67,7 +72,17 @@
     .bottom_footer_container p{
         font-size: 16px;
     }
-
+    .a_button{
+        margin-top: 10px;
+        text-align: center;
+    }
+    .a_button a{
+        padding: 3px 7px;
+        padding-bottom: -2px;
+        background: orange;
+        text-decoration: none;
+        border-radius: 5px;
+    }
 
 
 
