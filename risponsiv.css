@@ -5,17 +5,12 @@
     }
     .without_logo{
         justify-content: center;
-
-        gap: 1.5px;
+        gap: 5px;
     }
-    /* .btn_for_phone{
-        margin-right: 50px;
-        margin-left: opx;
-    } */
     .without_logo a {
-        padding: 3px 4px;
-        font-size: 14px;
-        font-weight: 600;
+        padding: 3px 5px;
+        font-size: 10px;
+        font-weight: 900;
     }
     .a1{
         order: -3;
